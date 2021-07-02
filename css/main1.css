@@ -1,0 +1,171 @@
+:root {
+  --primary-color: #fff;
+  --sec-color: red;
+}
+
+body {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: violet;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: .5em;
+  padding: .1em;
+}
+
+nav {
+  position: fixed;
+}
+
+.out-nav {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 15%;
+  top: 0;
+  overflow: hidden;
+}
+
+.out-nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: .2em;
+}
+
+.out-nav .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--primary-color);
+  padding: .1em;
+}
+
+.out-nav .container img {
+  height: 60%;
+}
+
+.out-nav .container span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  border: 0.12em solid rgba(116, 112, 112, 0.925);
+  border-top: 0;
+  border-bottom: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.out-nav .container .events {
+  margin-left: 1rem;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-weight: bold;
+}
+
+.out-nav .container .events a {
+  color: gray;
+}
+
+.out-nav .container .events:hover {
+  color: black;
+}
+
+.out-nav .container .options {
+  margin-left: 32em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1em;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-weight: bold;
+}
+
+.out-nav .container .options a {
+  color: black;
+}
+
+.out-nav .container .options:hover {
+  color: red;
+}
+
+.inner-nav {
+  overflow: hidden;
+  top: 3.8em;
+  background-color: var(--sec-color);
+  width: 100%;
+  padding: .5em;
+  font-weight: bold;
+}
+
+.inner-nav a {
+  color: #ffd901;
+}
+
+.inner-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inner-nav ul img {
+  margin: .5em;
+  padding: .15em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 1em;
+}
+
+.inner-nav ul .more-menu {
+  display: none;
+}
+
+.inner-nav ul .register {
+  margin: .5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inner-nav ul .register:hover::after {
+  border-bottom: 1px solid #ffd901;
+}
+
+.inner-nav ul .register a {
+  padding: .1rem;
+}
+
+.inner-nav::before {
+  background-color: none;
+}
+
+.inner-nav::after {
+  background-color: red;
+}
+
+.hero {
+  background-image: url(https://fantasy.formula1.com/images/web/homepage/top.jpg);
+  display: block;
+  size: 80%;
+}
+/*# sourceMappingURL=main.css.map */
