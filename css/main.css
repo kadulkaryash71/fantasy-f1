@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 :root {
   --primary-color: #fff;
+<<<<<<< HEAD
   --sec-color: rgb(228, 5, 5);
+=======
+  --sec-color: red;
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
   --bgcolor: rgb(240, 240, 240);
 }
 
@@ -30,13 +34,17 @@ nav {
 }
 
 .mobile-nav {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+=======
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
   color: white;
   position: fixed;
   left: 0;
   top: 0;
+<<<<<<< HEAD
   height: 1.5em;
   width: 100%;
   margin: .5em;
@@ -49,18 +57,31 @@ nav {
 
 .mobile-nav .logo {
   padding-left: .5em;
+=======
+  height: 3rem;
+  width: 100%;
+  margin: .5em;
+  padding: .2em;
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
 }
 
 .hero {
   color: white;
   display: -ms-grid;
   display: grid;
+<<<<<<< HEAD
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   overflow: hidden;
+=======
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
   min-height: 22em;
   width: 100%;
   background-color: rgba(70, 64, 64, 0.671);
@@ -75,6 +96,11 @@ nav {
 }
 
 .hero img {
+<<<<<<< HEAD
+=======
+  -ms-flex-line-pack: center;
+      align-content: center;
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
   height: 1.2rem;
   margin: .1rem;
   padding: .1em;
@@ -85,6 +111,7 @@ nav {
 }
 
 .hero-section {
+<<<<<<< HEAD
   float: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -108,6 +135,28 @@ nav {
 
 .hero-section .play-now:hover {
   background-color: #d80000;
+=======
+  width: 100%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.hero-section p {
+  font-size: 1rem;
+  margin: 1em;
+}
+
+.hero-section .play-now {
+  background-color: red;
+  color: white;
+  width: 25%;
+  margin: 3em;
+  padding: 1em;
+  border-radius: .5em;
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
 }
 
 .hero-section h3, .hero-section h4 {
@@ -179,6 +228,7 @@ nav {
   margin: 1em;
 }
 
+<<<<<<< HEAD
 .f-left .details-f .pat:hover {
   background-color: #d80000;
 }
@@ -187,17 +237,23 @@ nav {
   background-color: rgba(41, 121, 255, 0.12);
 }
 
+=======
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
 .f-right {
   justify-items: center;
   padding: 3em 0em 5em 0em;
 }
 
+<<<<<<< HEAD
 .f-right .contain-driver-image {
   width: 100;
   height: auto;
 }
 
 .f-right .contain-driver-image img {
+=======
+.f-right img {
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
   height: 24em;
 }
 
@@ -341,8 +397,11 @@ nav {
           justify-content: center;
   margin-bottom: 1.5em;
 }
+<<<<<<< HEAD
 
 .last-card .pat1:hover {
   background-color: #d80000;
 }
+=======
+>>>>>>> 699f7c0731dba40534312a0e3ba4e6a15e5af9d6
 /*# sourceMappingURL=main.css.map */
