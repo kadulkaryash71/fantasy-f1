@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 :root {
   --primary-color: #fff;
-  --sec-color: red;
+  --sec-color: rgb(228, 5, 5);
   --bgcolor: rgb(240, 240, 240);
 }
 
@@ -30,24 +30,37 @@ nav {
 }
 
 .mobile-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: white;
   position: fixed;
   left: 0;
   top: 0;
-  height: 3rem;
+  height: 1.5em;
   width: 100%;
   margin: .5em;
-  padding: .2em;
+  padding: .4em;
+}
+
+.mobile-nav span {
+  display: none;
+}
+
+.mobile-nav .logo {
+  padding-left: .5em;
 }
 
 .hero {
   color: white;
   display: -ms-grid;
   display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
   min-height: 22em;
   width: 100%;
   background-color: rgba(70, 64, 64, 0.671);
@@ -62,8 +75,6 @@ nav {
 }
 
 .hero img {
-  -ms-flex-line-pack: center;
-      align-content: center;
   height: 1.2rem;
   margin: .1rem;
   padding: .1em;
@@ -74,26 +85,29 @@ nav {
 }
 
 .hero-section {
-  width: 100%;
-  text-align: center;
+  float: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  justify-items: center;
+  text-align: center;
 }
 
 .hero-section p {
-  font-size: 1rem;
-  margin: 1em;
+  font-size: .9em;
+  margin: 2em;
 }
 
 .hero-section .play-now {
+  text-transform: uppercase;
+  font-weight: bold;
   background-color: red;
   color: white;
-  width: 25%;
-  margin: 3em;
-  padding: 1em;
-  border-radius: .5em;
+  padding: 1em 2.5em;
+  border-radius: .4em;
+}
+
+.hero-section .play-now:hover {
+  background-color: #d80000;
 }
 
 .hero-section h3, .hero-section h4 {
@@ -165,12 +179,25 @@ nav {
   margin: 1em;
 }
 
+.f-left .details-f .pat:hover {
+  background-color: #d80000;
+}
+
+.f-left .details-f .fom:hover {
+  background-color: rgba(41, 121, 255, 0.12);
+}
+
 .f-right {
   justify-items: center;
   padding: 3em 0em 5em 0em;
 }
 
-.f-right img {
+.f-right .contain-driver-image {
+  width: 100;
+  height: auto;
+}
+
+.f-right .contain-driver-image img {
   height: 24em;
 }
 
@@ -313,5 +340,9 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 1.5em;
+}
+
+.last-card .pat1:hover {
+  background-color: #d80000;
 }
 /*# sourceMappingURL=main.css.map */
